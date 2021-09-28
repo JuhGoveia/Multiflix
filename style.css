@@ -1,0 +1,85 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://img.freepik.com/vetores-gratis/varios-filmes-e-graficos-de-cinema-perfeitos-em-azul-claro-para-design-de-fundo_1284-42060.jpg?size=338&ext=jpg");
+  background-color: white;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: black;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: black;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#filmes img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  background: red;
+  color: #fff;
+  box-shadow: 0 5px 0 #d20000;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  background: #d20000;
+  box-shadow: 0 5px 0 #b00000;
+  opacity: 0.8;
+}
+
+#filmes {
+  display: flex;
+  position: center;
+}
+
+.filmes {
+  font-size: 24px;
+  font-family: Lucida Handwriting cursive;
+  width: 600px;
+  height: 400px;
+  position: center;
+  top: 0;
+}
